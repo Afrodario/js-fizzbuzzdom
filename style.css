@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #183a4a;
+}
+
 #container {
     max-width: 1000px;
     width: 100%;
@@ -15,6 +19,7 @@
 h1 {
     text-align: center;
     font-size: 100px;
+    color: white;
 }
 
 .box {
@@ -22,7 +27,20 @@ h1 {
     width: 120px;
     height: 120px;
     margin: 10px;
+    font-size: 15px;
     align-items: center;
     justify-content: center;
-    background-color: red;
+    background-color: #3d88ae;
+}
+
+.fizz {
+    background-color: #61d2a4;
+}
+
+.buzz {
+    background-color: #f9d277;
+}
+
+.fizzbuzz {
+    background-color: #de5471;
 }
