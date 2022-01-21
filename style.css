@@ -19,9 +19,9 @@ h1 {
 
 .box {
     display: flex;
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+    width: 120px;
+    height: 120px;
+    margin: 10px;
     align-items: center;
     justify-content: center;
     background-color: red;
